@@ -10,9 +10,16 @@ StickerED is a role-aware multimodal benchmark built on EmpatheticDialogues. Eac
 - StickerED_train.pkl
 - StickerED_valid.pkl
 - StickerED_test.pkl
-- datasets/SER_Dataset/Images/`<pack>`/`<sticker>`.jpg
+- SER_Dataset/
+- Annotations/
 
 **SER_Dataset**: The sticker images are sourced from *SER30K: A Large-Scale Dataset for Sticker Emotion Recognition*. Please contact the authors of SER30K to obtain permission before using the sticker images.
+
+**Annotations**
+The LLM‑produced annotation files for the ED dataset are hosted on Baidu Netdisk.
+
+- Link: [https://pan.baidu.com/s/1sQcgg32HtFqevyew7FmFkw](https://pan.baidu.com/s/1sQcgg32HtFqevyew7FmFkw)
+- Access code: `ycze`
 
 ## Dataset Fields
 Each sample stored in `StickerED_*.pkl` is a dictionary with the following fields:
